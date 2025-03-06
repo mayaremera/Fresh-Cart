@@ -1,8 +1,7 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// GitHub Pages base path fix
 export default defineConfig({
-  base: "/Fresh-Cart/",  // 👈 IMPORTANT: Set your repo name here
-  plugins: [react()],
-})
+  base: "/Fresh-Cart/", // Ensure this matches your GitHub repo name
+  plugins: [react()]
+});
